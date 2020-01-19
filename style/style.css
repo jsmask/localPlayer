@@ -1,0 +1,246 @@
+@font-face {
+    font-family: "iconfont";
+    src        : url('//at.alicdn.com/t/font_1616554_cpelnjdhzic.eot?t=1579397305780');
+    /* IE9 */
+    src: url('//at.alicdn.com/t/font_1616554_cpelnjdhzic.eot?t=1579397305780#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAQsAAsAAAAACSQAAAPdAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDMgqFPIRPATYCJAMUCwwABCAFhG0HTxviBxEVnEfJfiTGMSnrDL+KJtrNBM/Td+KfOzObbuAKqaykAnZr40FfEBIAm5uhplFRL1ny7fTTt5C0ZYVLw4//OVxcW3uBzG9ZRAEmNvfAAOOe9wIaY1g3ye7owPg0YNet/EzQfQjgIzclkAaNWnTAxqAsE0CGDR7YGzukw+QQBFvpSdlrRFZgYauF6gmw3P59+YZyYoPC0igPtRnQsB91Pi/4RXvtpB26aQenPQsgHAINlAAMyJhU2zC0GyuBxveJGOrA9282CvV5wc/XfX70i/bpNCSakcKn2sC08o+nQDwosgAwdaRm5fg6z5evgwYN+VHQIfBF+zgK2K+94APCwFuQvCiqnG2O12isQMCYSDwawCdEsgeD2aa++bTD2886vvtF6p3PJ73zTvLdd1Nv33Z882aIX/m66t8ycd2iA06mq06NNc7BxVnedftIB9+eK1nVxqsF/R337hfL3dc7m/h2Voc+8u7s9jSfJx1OkJ3wKT2Sl54k1M6H1VPX3amhRYdE3MP+8OKDiHOgW2DRtezaPfwqUGv9wcVZBMuGK30KCd5MzoFUbc91hzJLAOdAM5och6tYim4kXJ7QzvsmkTDvq5pEwhD5ZcHdl66af/4xEF/lORCxF7YZlXSTh52h7lBOlP6u0JNCn2weu+UT+4zvGjW9Ufhvnmx0d5T3KW/5Ha58Q89nOdzsz9pV/q7Q48Kf9BkQ7DOwVIQZc7rQLf49S229p7LBMUR+WXD183vGtg3E93gOROy4QpkOjbpyw2Ad/9DZubMtlWJ1bgejIULR4O0QN27NzNO5JwXfD0ZzRk2zx3NaE/ie4KTUtmxZ4suSCEVPUtOm+41oQNVS4jjJ+srK3jK7dSurUBqDgLQy2TFoB0BfUD99E9e1q/M+Ns9R6ee/mvYM1/jN9hsAPmj68qLdXk9hHz67wEMyzHjSaYwoVKKWAXJ4tkBvQACL7ofXoeB5aHs0XDE+aUeRqXQhCDaZfFBkIBdobAogDKYEWPipAB5saoOP4jQ+7CfOGDRivEAx5hIIEY6DIsR10ER4ijCYj8EiM9+Bh4ho8JGU+Jl+DAcJ5UnQKA5g/xB6XkkzaukU39Hts5Gg0Ca9UWIIQls10eQNV5Q2NsSP61QJSHiBKz2G88ywCY/Ya+VVt2NdU9o3VT0vSclJ0CgOgP0DoeeVzP5axn7+jm6fjeR0/TC+UWIYHWipaEogbrK1VNexvBI/rkOVABJegCtZcFZjDGzps0bstcLXiGxHaqYXlZVV/SuWYzwA+FDOtUSJFiOWeEj7MJnV5dGj6f+HNQu72yx6K9r7PUkAAAAA') format('woff2'),
+        url('//at.alicdn.com/t/font_1616554_cpelnjdhzic.woff?t=1579397305780') format('woff'),
+        url('//at.alicdn.com/t/font_1616554_cpelnjdhzic.ttf?t=1579397305780') format('truetype'),
+        /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+        url('//at.alicdn.com/t/font_1616554_cpelnjdhzic.svg?t=1579397305780#iconfont') format('svg');
+    /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family            : "iconfont" !important;
+    font-size              : 16px;
+    font-style             : normal;
+    -webkit-font-smoothing : antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bofang:before {
+    content: "\e6ad";
+}
+
+.icon-shengyin:before {
+    content: "\e753";
+}
+
+.icon-bofang1:before {
+    content: "\e696";
+}
+
+.icon-shanchu:before {
+    content: "\e625";
+}
+
+
+.m-play-btn {
+    cursor: pointer;
+    color : rgba(138, 43, 226, .7);
+}
+
+.m-play-btn:hover {
+    color: rgba(138, 43, 226, 1);
+}
+
+body {
+    background: #f8f8f8;
+}
+
+button {
+    outline: none !important;
+}
+
+.main-color {
+    background  : #8A2BE2 !important;
+    border-color: #8A2BE2 !important;
+}
+
+.main-color2 {
+    background  : #ffffff !important;
+    border-color: #8A2BE2 !important;
+    color       : #8A2BE2 !important;
+}
+
+.main-btn {
+    margin   : 20px auto;
+    font-size: 14px;
+}
+
+.main-panel-box {
+    margin-top: 20px;
+}
+
+ul {
+    padding: 0
+}
+
+.music-item-left {
+    overflow     : hidden;
+    text-overflow: ellipsis;
+    white-space  : nowrap;
+}
+
+.music-item-right {
+    text-align: right;
+}
+
+.play-btn {
+    color       : #8A2BE2;
+    font-size   : 12px;
+    cursor      : pointer;
+    margin-right: 15px;
+}
+
+.delete-btn {
+    color    : rgb(240, 62, 49);
+    font-size: 12px;
+    cursor   : pointer;
+}
+
+* {
+    user-select: none;
+}
+
+html,
+body {
+    width : 100%;
+    height: 100%;
+}
+
+.home-container {
+    position      : relative;
+    box-sizing    : border-box;
+    padding-bottom: 100px;
+    min-height    : 100%;
+}
+
+.music-container {
+    position  : fixed;
+    bottom    : 0;
+    left      : 0;
+    right     : 0;
+    background: #ffffff;
+    height    : 100px;
+    box-sizing: border-box;
+    border-top: 1px solid #dddddd;
+}
+
+.m-progress-box {
+    height       : 15px;
+    background   : rgba(147, 51, 236, .3);
+    width        : 90%;
+    position     : relative;
+    margin       : 5px auto 5px;
+    border-radius: 5px;
+    overflow     : hidden;
+}
+
+.m-audio-title {
+    margin   : 10px auto 0px;
+    width    : 90%;
+    font-size: 12px;
+}
+
+.m-progress-bar {
+    background: rgb(147, 51, 236, 1);
+    position  : absolute;
+    left      : 0;
+    width     : 0%;
+    height    : 100%;
+}
+
+.m-audio-fn {
+    position: relative;
+    margin  : 0 auto;
+    width   : 90%;
+    height  : 35px;
+}
+
+.m-volume-box {
+    position : absolute;
+    left     : 40px;
+    top      : 7px;
+    display: flex;
+    align-items: center;
+}
+
+.m-volume-box>i{
+    font-size: 20px;
+    margin-right: 10px;
+    display: block;
+    color: rgb(119, 103, 124,.6);
+    transition: all .1s;
+}
+
+.m-volume-box:hover i{
+    color: rgb(147, 51, 236, 1);
+}
+
+.m-volume-box:hover #volume-num{
+    background: rgb(147, 51, 236, 1);
+}
+
+.m-progress-time {
+    position : absolute;
+    right    : 0;
+    top      : 13px;
+    font-size: 12px;
+}
+
+#bottom-play-btn {
+    position : absolute;
+    top      : 3px;
+    left     : 0;
+    font-size: 24px;
+}
+
+#volume-btn{
+    width:12px;
+    height: 12px;
+    border-radius: 100%;
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -6px;
+    left: 100%;
+    z-index: 9;
+}
+#volume-btn::after{
+    content: '';
+    display: block;
+    width:12px;
+    height: 12px;
+    left: 50%;
+    position: absolute;
+    border-radius: 100%;
+    top: 50%;
+    border:2px solid rgba(145, 113, 155, 0.8);
+    margin-left: -12px;
+    margin-top: -6px;
+    background: #ffffff;
+}
+
+#volume-num{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: rgb(147, 51, 236, .7);
+    top: 0;
+    bottom: 0;
+    border-radius: 3px;
+}
+
+#volume-box{
+    cursor: pointer;
+    width: 100px;
+    background: rgb(119, 103, 124,.3);
+    height: 6px;
+    position: relative;
+    border-radius: 3px;
+    top: 5px;
+}

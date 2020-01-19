@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>本地音乐播放器</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+
+<body>
+    <div class="container home-container">
+        <button id="add" class="btn btn-primary btn-lg btn-block main-btn main-color" type="button">添加歌曲到曲库</button>
+        <ul id="music-list" class="list-group">
+
+        </ul>
+        <div class="music-container">
+            <div class="m-audio-title">
+                正在播放：<span id="music-name"></span>
+            </div>
+            <div class="m-progress-box">
+                <div class="m-progress-bar"></div>
+            </div>
+            <div class="m-audio-fn">
+                <i class="iconfont icon-bofang1 m-play-btn" id="bottom-play-btn"></i>
+                <div class="m-volume-box">
+                    <i class="iconfont icon-shengyin"></i>
+                    <p id="volume-box"><span id="volume-num"></span><span id="volume-btn"></span></p>
+                </div>
+                <div class="m-progress-time">
+                    <span id="current-time">00:00</span> / <span id="duration-time">00:00</span>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <audio id="audio" loop="loop"></audio>
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+{
+  "name": "29",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon --watch main.js --exec electron .",
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.1.9",
+    "electron-builder": "^22.2.0",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "electron-store": "^5.1.0",
+    "uuid": "^3.3.3"
+  },
+  "build": {
+    "productName": "本地音乐播放器",
+    "appId": "localMusicPlayer",
+    "copyright": "jsmask",
+    "directories": {
+      "output": "build"
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis-web",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        }
+      ],
+      "icon": "build/icon.ico"
+    },
+    "nsis": {
+      "allowToChangeInstallationDirectory": true,
+      "oneClick": false,
+      "perMachine": false
+    }
+  }
+}
