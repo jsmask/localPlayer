@@ -14,7 +14,7 @@ yarn install
 yarn start
 ```
 
-#### Or
+#### OR
 
 ```
 yarn dev
