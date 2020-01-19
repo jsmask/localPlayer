@@ -43,6 +43,10 @@
       "allowToChangeInstallationDirectory": true,
       "oneClick": false,
       "perMachine": false
-    }
+    },
+    "keywords": [
+      "Electron",
+      "demo"
+    ]
   }
 }
